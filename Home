@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Game Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Game</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#screenshots">Screenshots</a></li>
+                <li><a href="#download">Download</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About the Game</h2>
+        <p>This is a futuristic platformer game where you explore a mysterious world...</p>
+    </section>
+
+    <section id="screenshots">
+        <h2>Screenshots</h2>
+        <img src="screenshot1.jpg" alt="Game Screenshot">
+        <img src="screenshot2.jpg" alt="Game Screenshot">
+    </section>
+
+    <section id="download">
+        <h2>Download</h2>
+        <a href="mygame.zip" download>Download Now</a>
+    </section>
+
+    <footer>
+        <p>© 2024 My Game Studio | Follow us on <a href="#">Twitter</a></p>
+    </footer>
+</body>
+</html>
